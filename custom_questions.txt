@@ -1,0 +1,121 @@
+manual_questions = [
+
+    # long questions
+
+    {
+        "question": "What are the key features of the Amazon rainforest?",
+        "context": "The Amazon rainforest spans across nine countries in South America and is home to a rich ecosystem. It serves as a significant carbon sink and helps regulate the Earth's climate. <p>The Amazon rainforest, also known as Amazonia, is a vast tropical rainforest in South America that covers over 5.5 million square kilometers. It is known for its incredible biodiversity, hosting millions of species of plants, animals, and insects. The Amazon River, one of the largest rivers in the world, runs through the forest, contributing to the rich ecosystem.</p> However, human activities like deforestation and mining threaten its biodiversity.",
+        "type": "long_answer"
+    },
+    {
+        "question": "How does photosynthesis work in plants?",
+        "context": "Photosynthesis is a vital process for life on Earth, enabling plants to convert sunlight into energy. It is closely linked to the carbon cycle. <p>Photosynthesis is the process by which green plants, algae, and some bacteria convert light energy, usually from the sun, into chemical energy in the form of glucose. This process takes place in the chloroplasts of plant cells, where chlorophyll captures sunlight. During photosynthesis, carbon dioxide from the air and water from the soil react in the presence of sunlight to produce glucose and oxygen.</p> Plants also produce oxygen as a byproduct, which supports life on Earth.",
+        "type": "long_answer"
+    },
+    {
+        "question": "What were the main causes of World War I?",
+        "context": "World War I involved numerous nations and resulted in significant geopolitical changes. It was one of the most devastating conflicts in history. <p>World War I, also known as the Great War, began in 1914 and lasted until 1918. The main causes of World War I included a complex web of alliances between countries, militarism, imperialism, and nationalism. The immediate trigger was the assassination of Archduke Franz Ferdinand of Austria-Hungary in June 1914, which led to a chain reaction of events that escalated into a full-scale war.</p> The aftermath of the war saw the redrawing of many national boundaries.",
+        "type": "long_answer"
+    },
+    {
+        "question": "What are the effects of global warming on polar regions?",
+        "context": "Polar regions are critical indicators of climate change, and their warming has far-reaching implications for global weather patterns and ecosystems. <p>Global warming has significant effects on polar regions, particularly in the Arctic and Antarctica. Rising temperatures lead to the melting of ice sheets and glaciers, which contributes to rising sea levels. This melting threatens the habitats of polar animals, such as polar bears, seals, and penguins, which depend on ice for survival. Additionally, the loss of ice reduces the Earth's albedo, causing more solar radiation to be absorbed and further increasing temperatures.</p> Thawing permafrost releases greenhouse gases like methane, exacerbating global warming.",
+        "type": "long_answer"
+    },
+
+    # Short answer questions
+    {
+        "question": "What is the largest planet in our solar system?",
+        "context": "Jupiter is the largest planet in our solar system, known for its Great Red Spot.",
+        "type": "short_answer"
+    },
+    {
+        "question": "What is the chemical symbol for water?",
+        "context": "The chemical symbol for water is H2O, representing two hydrogen atoms bonded to one oxygen atom.",
+        "type": "short_answer"
+    },
+    {
+        "question": "Who painted the Mona Lisa?",
+        "context": "The Mona Lisa was painted by the Italian artist Leonardo da Vinci during the Renaissance.",
+        "type": "short_answer"
+    },
+    {
+        "question": "What is the boiling point of water?",
+        "context": "Water boils at 100 degrees Celsius (212 degrees Fahrenheit) at sea level.",
+        "type": "short_answer"
+    },
+    {
+        "question": "Who was the first man on the moon?",
+        "context": "Neil Armstrong was the first person to walk on the moon during the Apollo 11 mission in 1969.",
+        "type": "short_answer"
+    },
+    # Yes questions
+    {
+        "question": "Is the capital of France Paris?",
+        "context": "Paris is the capital of France, known for its rich culture and history.",
+        "type": "yes_no",
+        "ground_truth": "YES"
+    },
+    {
+        "question": "Does water boil at 100 degrees Celsius?",
+        "context": "Water boils at 100 degrees Celsius under standard atmospheric pressure.",
+        "type": "yes_no",
+        "ground_truth": "YES"
+    },
+    {
+        "question": "Is Earth a planet in our solar system?",
+        "context": "Earth is the third planet from the Sun in our solar system.",
+        "type": "yes_no",
+        "ground_truth": "YES"
+    },
+    {
+        "question": "Is the Mona Lisa a painting by Leonardo da Vinci?",
+        "context": "The Mona Lisa was created by Leonardo da Vinci during the Renaissance.",
+        "type": "yes_no",
+        "ground_truth": "YES"
+    },
+    {
+        "question": "Is the speed of light constant?",
+        "context": "The speed of light in a vacuum is approximately 299,792 kilometers per second.",
+        "type": "yes_no",
+        "ground_truth": "YES"
+    },
+    # No questions
+    {
+        "question": "Is the capital of Germany Berlin?",
+        "context": "Berlin is the capital of Germany",
+        "type": "yes_no",
+        "ground_truth": "YES"
+    },
+    {
+        "question": "Does the Earth orbit the Sun?",
+        "context": "The Earth orbits the Sun, not the other way around.",
+        "type": "yes_no",
+        "ground_truth": "YES"
+    },
+    {
+        "question": "Is the chemical symbol for water CO2?",
+        "context": "CO2 is the chemical symbol for carbon dioxide, not water.",
+        "type": "yes_no",
+        "ground_truth": "NO"
+    },
+    {
+        "question": "Is Jupiter the smallest planet in our solar system?",
+        "context": "Jupiter is the largest planet in our solar system.",
+        "type": "yes_no",
+        "ground_truth": "NO"
+    },
+    {
+        "question": "Is the speed of light slower than the speed of sound?",
+        "context": "The speed of light is much faster than the speed of sound.",
+        "type": "yes_no",
+        "ground_truth": "NO"
+    },
+    {
+
+        "question": "is it illegal to stand on a flag",
+        "context": "told of a ( probably fictional ) incident in which Confederate soldiers were deterred from defacing an American flag . The poem contains the famous lines : `` Shoot , if you must , this old gray head , But spare your country 's flag , '' she said . During the United States involvement in the Vietnam War , American flags were sometimes burned during war protest demonstrations . After the Johnson decision , the Flag Protection Act was passed protecting flags from anyone who `` mutilates , defaces , physically defiles , burns , maintains on the floor or ground , or tramples upon any flag '' . This decision was later struck down in the Eichman decision . After that case , several flag burning amendments to the Constitution were proposed . On 22 June 2005 , a Flag Desecration Amendment was passed by the House with the needed two - thirds majority . On 27 June 2006 , another attempt to pass a ban on flag burning was rejected by the Senate in a close vote of 66 in favor , 34 opposed , one vote short of the two - thirds",
+        "type": "yes_no",
+        "ground_truth": "NO"
+    },
+]
